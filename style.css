@@ -8,7 +8,7 @@ body {
     justify-content: center;
     margin-top: 120px;
     background-color: rgb(243, 110, 110);
-    color: rgb(173, 243, 232);
+    color: rgb(125, 235, 252);
     font-family: "Poppins";
 }
 
@@ -16,6 +16,10 @@ h1 {
     font-size: 50px;
     text-transform: uppercase;
     margin-bottom: 60px;
+    color:rgb(248, 246, 135);
+    word-spacing: 15px;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 .timer {
