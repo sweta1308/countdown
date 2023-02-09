@@ -48,6 +48,9 @@ h1 {
 
    .timer {
         width: 100%;
+   }
+
+   .timer div {
         margin: 0;
    }
 }
