@@ -10,6 +10,7 @@ updateTime();
 function updateTime() {
     const currentTime = new Date().getTime();
     const gap = date - currentTime;
+    console.log(gap)
 
     const second = 1000;
     const minute = second * 60;
@@ -21,7 +22,6 @@ function updateTime() {
     const m = Math.floor((gap%hour)/minute)
     const s = Math.floor((gap%minute)/second)
 
-    
 
     dayEl.innerText = d;
     hourEl.innerText = h;
