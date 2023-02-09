@@ -22,6 +22,10 @@ h1 {
     text-align: center;
 }
 
+.main {
+    color: slateblue;
+}
+
 .timer {
     display: flex;
     justify-content: center;
