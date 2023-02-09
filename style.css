@@ -44,6 +44,7 @@ h1 {
 @media only screen and (max-width:480px){
    h1 {
         text-align: center;
+        font-size: 30px;
    }
 
    .timer {
@@ -51,6 +52,7 @@ h1 {
    }
 
    .timer div {
-        margin: 0;
+        margin: 10px;
+        font-size: 25px;
    }
 }
