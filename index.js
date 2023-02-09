@@ -22,7 +22,6 @@ function updateTime() {
     const m = Math.floor((gap%hour)/minute)
     const s = Math.floor((gap%minute)/second)
 
-
     dayEl.innerText = d;
     hourEl.innerText = h;
     minuteEl.innerText = m;
